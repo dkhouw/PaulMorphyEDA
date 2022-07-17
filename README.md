@@ -1,7 +1,8 @@
 Title: Scraper and EDA on Paul Morphy's Best Games
 
 Project Description:
-  Scraper: I built a scraper in Python from scratch, to scrape all 377 of his games in the games database on chess.com
+
+  Scraper: I built a scraper in Python from scratch, to scrape all 377 of his games in the games database on chess.com.
   Because the structure of this webpage does not indicate who played as white or who played as black, I filtered the games by the color Morphy played, then parsed
   the games into two separate datasets white_games.csv and black_games.csv, so I can pinpoint the player as white and the player as black. I later combined these 
   two datasets into one dataset. 
