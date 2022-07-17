@@ -5,6 +5,7 @@ Project Description:
   Because the structure of this webpage does not indicate who played as white or who played as black, I filtered the games by the color Morphy played, then parsed
   the games into two separate datasets white_games.csv and black_games.csv, so I can pinpoint the player as white and the player as black. I later combined these 
   two datasets into one dataset. 
+  It's possible to use this scraper on other players in the mastergames database, with changes to anything referring to Morphy of course.
   
   EDA: For the EDA, I credit https://www.shedloadofcode.com/blog/how-to-scrape-and-analyse-your-chess-com-data/ as a guide on how I structured my analysis.
   This article also has a scraper but I did not refer to it when I built my own scraper.
